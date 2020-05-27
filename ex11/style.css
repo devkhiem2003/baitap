@@ -1,0 +1,21 @@
+.main{
+    width: 400px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+#todoList{
+    list-style: none;
+}
+.item{
+    display: flex;
+    position: relative;
+}
+h3{
+    margin: 0;
+    padding-left: 30px;
+}
+.delete{
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+}

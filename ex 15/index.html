@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 15</title>
+    <link rel="stylesheet" type="text/css" href="/js/js-DOM/exercise1/style.css">
+</head>
+<body>
+    <form name="Caculation" class="caculation">
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <input type="text" id="display" name="display">
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="button" name="one" value="1" onclick="Caculation.display.value += value">
+                        <input type="button" name="two" value="2" onclick="Caculation.display.value += value">
+                        <input type="button" name="three" value="3" onclick="Caculation.display.value += value">
+                        <input type="button" name="plus" value="+" onclick="Caculation.display.value += value">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="one" value="4" onclick="Caculation.display.value += value">
+                        <input type="button" name="one" value="5" onclick="Caculation.display.value += value">
+                        <input type="button" name="one" value="6" onclick="Caculation.display.value += value">
+                        <input type="button" name="plus" value="-" onclick="Caculation.display.value += value">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="one" value="7" onclick="Caculation.display.value += value">
+                        <input type="button" name="one" value="8" onclick="Caculation.display.value += value">
+                        <input type="button" name="one" value="9" onclick="Caculation.display.value += value">
+                        <input type="button" name="plus" value="*" onclick="Caculation.display.value += value">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="clear" id="clear" value="c" onclick="Caculation.display.value = ''">
+                        <input type="button" name="zero" value="0" onclick="Caculation.display.value += 0">
+                        <input type="button" name="doit" value="="
+                            onclick="Caculation.display.value = eval(Caculation.display.value)">
+                        <input type="button" name="plus" value="/" onclick="Caculation.display.value += value">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+
+</body>
+</html>
